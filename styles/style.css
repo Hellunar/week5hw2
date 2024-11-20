@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  background-color: red;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main {
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: center;
+}
+div {
+  background-color: #fff;
+  min-height: 60px;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.exhibit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 40%;
+}
+.growth:hover {
+  transform: scale(120%);
+  cursor: pointer;
+}
